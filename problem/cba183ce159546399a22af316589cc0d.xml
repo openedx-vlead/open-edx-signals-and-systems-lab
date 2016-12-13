@@ -1,0 +1,112 @@
+<problem display_name="Multiple Choice" markdown="&gt;&gt;1) With increasing sampling frequency fs, the mean square error of the reconstructed output w.r.t the original signal&lt;&lt;&#10;(x) increases.&#10;( ) remains uneffected.&#10;( ) almost zero.&#10;( ) remains constant after initial decrease.&#10;&#10;&gt;&gt;2) From the observation in exp-4(c) what can you say about the delay introduced in the reconstructed output w.r.t original signal by the first order hold ?&lt;&lt;&#10;( ) No delay is introduced&#10;(x) A delay of one sample period is introduced&#10;( ) A delay of two sample periods is introduced&#10;&#10;&gt;&gt;3) The main cause of aliasing distortion observed in frequency domain in sampling of a continuous time signal is&lt;&lt;&#10;( ) the signal spectra being band-limited.&#10;( ) the signal spectra being non band-limited.&#10;(x) sampling in time domain.&#10;&#10;&gt;&gt;4) Linear interpolation based reconstruction process&lt;&lt;&#10;( ) maintains the value of the previous sampling instant till next sampling instant.&#10;(x) joins the adjacent sampling points by a straight line.&#10;( ) joins the adjacent sampling points by a second-order polynomial.&#10;&#10;&gt;&gt;5)The role of zero padding in DFT based signal analysis is&lt;&lt;&#10;( ) to reduce the aliasing distortion.&#10;( ) to increase the frequency resolution&#10;(x) to reduce the picket fence effect&#10;&#10;&gt;&gt;6) What is over sampling ?&lt;&lt;&#10;( ) Sampling a signal with sampling frequency significantly higher than the bandwidth of the signal being sampled.&#10;( ) Sampling a signal with sampling frequency significantly lower than the bandwidth of the signal being sampled.&#10;(x) Sampling a signal with sampling frequency significantly higher than twice the bandwidth of the signal being sampled.&#10;( ) Sampling a signal with sampling frequency three times higher than the bandwidth of the signal being sampled.&#10;&#10;&gt;&gt;7) From the observation in exp-4(c) what can you make out about delay introduce by zero order hold ?&lt;&lt;&#10;(x) Zero&#10;( ) One&#10;( ) Two&#10;&#10;&gt;&gt;8) What do you mean by under sampling ?&lt;&lt;&#10;( ) Sampling the signal at Nyquist rate.&#10;(x) Sampling the signal below the Nyquist rate.&#10;( ) Sampling the signal greater than or equal to Nyquist rate.&#10;&#10;&gt;&gt;9) What is the use of anti-aliasing filter ?&lt;&lt;&#10;( ) It is used for reconstruction of a signal.&#10;(x) It is used to restrict the bandwidth of a signal to satisfy the sampling theorem and to prevent aliasing.&#10;&#10;&gt;&gt;10) A signal can be reconstructed from its samples by using which method?&lt;&lt;&#10;(x) Filtering.&#10;( ) Resampling.&#10;( ) Auto-correlation.&#10;&#10;&gt;&gt;11) Computation of DFT involves&lt;&lt;&#10;( ) Sampling in time domain.&#10;(x) Sampling in frequency domain.&#10;( ) No sampling.&#10;( ) Sampling in both time and frequency domain.&#10;&#10;&gt;&gt;12) What should be done to resolve two very closely spaced sinusoids presents in a signal?&lt;&lt;&#10;( ) Small data length with appropriate zero padding must be done.&#10;(x) Length of data sufficiently large should be taken.">
+<p>1) With increasing sampling frequency fs, the mean square error of the reconstructed output w.r.t the original signal</p>
+<multiplechoiceresponse>
+  <choicegroup label="1) With increasing sampling frequency fs, the mean square error of the reconstructed output w.r.t the original signal" type="MultipleChoice">
+    <choice correct="true">increases.</choice>
+    <choice correct="false">remains uneffected.</choice>
+    <choice correct="false">almost zero.</choice>
+    <choice correct="false">remains constant after initial decrease.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>2) From the observation in exp-4(c) what can you say about the delay introduced in the reconstructed output w.r.t original signal by the first order hold ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="2) From the observation in exp-4(c) what can you say about the delay introduced in the reconstructed output w.r.t original signal by the first order hold ?" type="MultipleChoice">
+    <choice correct="false">No delay is introduced</choice>
+    <choice correct="true">A delay of one sample period is introduced</choice>
+    <choice correct="false">A delay of two sample periods is introduced</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>3) The main cause of aliasing distortion observed in frequency domain in sampling of a continuous time signal is</p>
+<multiplechoiceresponse>
+  <choicegroup label="3) The main cause of aliasing distortion observed in frequency domain in sampling of a continuous time signal is" type="MultipleChoice">
+    <choice correct="false">the signal spectra being band-limited.</choice>
+    <choice correct="false">the signal spectra being non band-limited.</choice>
+    <choice correct="true">sampling in time domain.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>4) Linear interpolation based reconstruction process</p>
+<multiplechoiceresponse>
+  <choicegroup label="4) Linear interpolation based reconstruction process" type="MultipleChoice">
+    <choice correct="false">maintains the value of the previous sampling instant till next sampling instant.</choice>
+    <choice correct="true">joins the adjacent sampling points by a straight line.</choice>
+    <choice correct="false">joins the adjacent sampling points by a second-order polynomial.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>5)The role of zero padding in DFT based signal analysis is</p>
+<multiplechoiceresponse>
+  <choicegroup label="5)The role of zero padding in DFT based signal analysis is" type="MultipleChoice">
+    <choice correct="false">to reduce the aliasing distortion.</choice>
+    <choice correct="false">to increase the frequency resolution</choice>
+    <choice correct="true">to reduce the picket fence effect</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>6) What is over sampling ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="6) What is over sampling ?" type="MultipleChoice">
+    <choice correct="false">Sampling a signal with sampling frequency significantly higher than the bandwidth of the signal being sampled.</choice>
+    <choice correct="false">Sampling a signal with sampling frequency significantly lower than the bandwidth of the signal being sampled.</choice>
+    <choice correct="true">Sampling a signal with sampling frequency significantly higher than twice the bandwidth of the signal being sampled.</choice>
+    <choice correct="false">Sampling a signal with sampling frequency three times higher than the bandwidth of the signal being sampled.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>7) From the observation in exp-4(c) what can you make out about delay introduce by zero order hold ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="7) From the observation in exp-4(c) what can you make out about delay introduce by zero order hold ?" type="MultipleChoice">
+    <choice correct="true">Zero</choice>
+    <choice correct="false">One</choice>
+    <choice correct="false">Two</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>8) What do you mean by under sampling ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="8) What do you mean by under sampling ?" type="MultipleChoice">
+    <choice correct="false">Sampling the signal at Nyquist rate.</choice>
+    <choice correct="true">Sampling the signal below the Nyquist rate.</choice>
+    <choice correct="false">Sampling the signal greater than or equal to Nyquist rate.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>9) What is the use of anti-aliasing filter ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="9) What is the use of anti-aliasing filter ?" type="MultipleChoice">
+    <choice correct="false">It is used for reconstruction of a signal.</choice>
+    <choice correct="true">It is used to restrict the bandwidth of a signal to satisfy the sampling theorem and to prevent aliasing.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>10) A signal can be reconstructed from its samples by using which method?</p>
+<multiplechoiceresponse>
+  <choicegroup label="10) A signal can be reconstructed from its samples by using which method?" type="MultipleChoice">
+    <choice correct="true">Filtering.</choice>
+    <choice correct="false">Resampling.</choice>
+    <choice correct="false">Auto-correlation.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>11) Computation of DFT involves</p>
+<multiplechoiceresponse>
+  <choicegroup label="11) Computation of DFT involves" type="MultipleChoice">
+    <choice correct="false">Sampling in time domain.</choice>
+    <choice correct="true">Sampling in frequency domain.</choice>
+    <choice correct="false">No sampling.</choice>
+    <choice correct="false">Sampling in both time and frequency domain.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>12) What should be done to resolve two very closely spaced sinusoids presents in a signal?</p>
+<multiplechoiceresponse>
+  <choicegroup label="12) What should be done to resolve two very closely spaced sinusoids presents in a signal?" type="MultipleChoice">
+    <choice correct="false">Small data length with appropriate zero padding must be done.</choice>
+    <choice correct="true">Length of data sufficiently large should be taken.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>

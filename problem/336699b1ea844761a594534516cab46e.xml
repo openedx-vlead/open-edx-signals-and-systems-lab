@@ -1,0 +1,77 @@
+<problem display_name="Multiple Choice" markdown="&gt;&gt;1) If b&gt;1 which of the following statement is true for y(t)= x(t/b).&lt;&lt;&#10;( ) y(t) is a time-compressed version of x(t), compressed by a factor b.&#10;(x) y(t) is a time-expanded version of x(t), expanded by a factor b.&#10;( ) y(t) is a time inverted version of x(t) scaled by |b|.&#10;&#10;&gt;&gt;2) The product of an even function and an odd function will be&lt;&lt;&#10;(x) Odd&#10;( ) Even&#10;( ) Neither odd nor even&#10;&#10;&gt;&gt;3) If we shift a discrete-time impulse function by a shifting value of 0.6 then&lt;&lt;&#10;( ) Discrete-time impulse function will be scaled by 0.6 value.&#10;(x) Discrete-time impulse function will not shift for any float value.&#10;( ) Discrete-time impulse function will shift with 0.6 value in the time axis.&#10;&#10;&gt;&gt;4) What will happen if we do time inversion of an odd signal?&lt;&lt;&#10;( ) The signal becomes even.&#10;( ) The signal remains odd and unaltered.&#10;(x) The signal remains odd and the waveform flips about the t=0 axis, where 't' is the time.&#10;( ) None of these.&#10;&#10;&gt;&gt;5) Real exponential signal is defined as x(t) =A.exp(at). If the value of 'a' is negative, then the signal will be?&lt;&lt;&#10;&#10;( ) A DC signal.&#10;( ) Exponentially growing signal.&#10;(x) Exponentially decaying signal.&#10;( ) A sinusoidal signal.&#10;&#10;&gt;&gt;6) Real exponential signal is defined as x(t) = A.exp(at). If the value of 'a' is zero, then the signal will be&lt;&lt;&#10;( ) Exponentially growing signal.&#10;( ) Exponentially decaying signal.&#10;(x) A DC signal with amplitude 'A'.&#10;( ) A sinusoidal signal with amplitude 'A'.&#10;&#10;&gt;&gt;7) What will happen if we take the difference of an odd function and an even function ?&lt;&lt;&#10;&#10;( ) It will be an even function.&#10;( ) It will be an odd function.&#10;(x) Neither even nor odd.&#10;&#10;&gt;&gt;8)What will happen if we time-scale a discrete-time impulse function by a factor 'A' (A may be of any numerical value) ?&lt;&lt;&#10;&#10;( ) The discrete-time impulse function will be compressed/expanded by the value of factor 'A'.&#10;(x) There will be no change in the amplitude of the discrete-time impulse function.">
+<p>1) If b&gt;1 which of the following statement is true for y(t)= x(t/b).</p>
+<multiplechoiceresponse>
+  <choicegroup label="1) If b&gt;1 which of the following statement is true for y(t)= x(t/b)." type="MultipleChoice">
+    <choice correct="false">y(t) is a time-compressed version of x(t), compressed by a factor b.</choice>
+    <choice correct="true">y(t) is a time-expanded version of x(t), expanded by a factor b.</choice>
+    <choice correct="false">y(t) is a time inverted version of x(t) scaled by |b|.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>2) The product of an even function and an odd function will be</p>
+<multiplechoiceresponse>
+  <choicegroup label="2) The product of an even function and an odd function will be" type="MultipleChoice">
+    <choice correct="true">Odd</choice>
+    <choice correct="false">Even</choice>
+    <choice correct="false">Neither odd nor even</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>3) If we shift a discrete-time impulse function by a shifting value of 0.6 then</p>
+<multiplechoiceresponse>
+  <choicegroup label="3) If we shift a discrete-time impulse function by a shifting value of 0.6 then" type="MultipleChoice">
+    <choice correct="false">Discrete-time impulse function will be scaled by 0.6 value.</choice>
+    <choice correct="true">Discrete-time impulse function will not shift for any float value.</choice>
+    <choice correct="false">Discrete-time impulse function will shift with 0.6 value in the time axis.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>4) What will happen if we do time inversion of an odd signal?</p>
+<multiplechoiceresponse>
+  <choicegroup label="4) What will happen if we do time inversion of an odd signal?" type="MultipleChoice">
+    <choice correct="false">The signal becomes even.</choice>
+    <choice correct="false">The signal remains odd and unaltered.</choice>
+    <choice correct="true">The signal remains odd and the waveform flips about the t=0 axis, where 't' is the time.</choice>
+    <choice correct="false">None of these.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>5) Real exponential signal is defined as x(t) =A.exp(at). If the value of 'a' is negative, then the signal will be?</p>
+<multiplechoiceresponse>
+  <choicegroup label="5) Real exponential signal is defined as x(t) =A.exp(at). If the value of 'a' is negative, then the signal will be?" type="MultipleChoice">
+    <choice correct="false">A DC signal.</choice>
+    <choice correct="false">Exponentially growing signal.</choice>
+    <choice correct="true">Exponentially decaying signal.</choice>
+    <choice correct="false">A sinusoidal signal.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>6) Real exponential signal is defined as x(t) = A.exp(at). If the value of 'a' is zero, then the signal will be</p>
+<multiplechoiceresponse>
+  <choicegroup label="6) Real exponential signal is defined as x(t) = A.exp(at). If the value of 'a' is zero, then the signal will be" type="MultipleChoice">
+    <choice correct="false">Exponentially growing signal.</choice>
+    <choice correct="false">Exponentially decaying signal.</choice>
+    <choice correct="true">A DC signal with amplitude 'A'.</choice>
+    <choice correct="false">A sinusoidal signal with amplitude 'A'.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>7) What will happen if we take the difference of an odd function and an even function ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="7) What will happen if we take the difference of an odd function and an even function ?" type="MultipleChoice">
+    <choice correct="false">It will be an even function.</choice>
+    <choice correct="false">It will be an odd function.</choice>
+    <choice correct="true">Neither even nor odd.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>8)What will happen if we time-scale a discrete-time impulse function by a factor 'A' (A may be of any numerical value) ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="8)What will happen if we time-scale a discrete-time impulse function by a factor 'A' (A may be of any numerical value) ?" type="MultipleChoice">
+    <choice correct="false">The discrete-time impulse function will be compressed/expanded by the value of factor 'A'.</choice>
+    <choice correct="true">There will be no change in the amplitude of the discrete-time impulse function.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>
