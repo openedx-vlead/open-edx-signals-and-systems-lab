@@ -1,0 +1,65 @@
+<problem display_name="Multiple Choice" markdown="&gt;&gt;1)In Exp 3(a) CTFS-CTFT , for a periodic signal with period 2.5 s, the spectral content at 0.4 Hz corresponds to which harmonic in the CTFS harmonic plot?&lt;&lt;&#10;( ) 2&#10;(x) 1&#10;( ) 0.5&#10;&#10;&gt;&gt;2) For a periodic signal which one of the following statements characterize the relationship between number of harmonics within a fixed frequency band and time period of the signal ?&lt;&lt;&#10;(x) By increasing the time period number of harmonics will increase.&#10;( ) By increasing the time period number of harmonics will decrease.&#10;( ) By increasing the time period number of harmonics will have no change.&#10;&#10;&gt;&gt;3) In exp 3(e) CTFT-DTFT, for what value of the sampling rate the impulse-sampled version of continuous time signal x(t) matches with the given discrete time signal x[n] ?&lt;&lt;&#10;(x) 2 Hz&#10;( ) 1 Hz&#10;( ) 0.5 Hz&#10;&#10;&gt;&gt;4) In exp 3(c), what is the frequency of the spectral component corresponding to 4th harmonic for the corresponding normalized frequency components when the period is set to 5 ?&lt;&lt;&#10;(x) 0.08&#10;( ) 0.06&#10;( ) 1.00&#10;&#10;&gt;&gt;5) A continuous-time signal x(t) has a Fourier Transform X(w). The Fourier transform of the time shifted signal x(t+p) would be given by&lt;&lt;&#10;( ) X(w)exp(-jwp)&#10;(x) X(w)exp(jwp)&#10;( ) X(w)&#10;&#10;&gt;&gt;6) If a signal is discrete in one domain(time/frequency), then its equivalent representation in the other domain would be&lt;&lt;&#10;(x) Periodic&#10;( ) Aperiodic&#10;&#10;&gt;&gt;7) &quot;The total energy of all discrete time n is equal to the total energy in one fundamental frequency&quot; - this statement is better known as&lt;&lt;&#10;( ) Nyquist Sampling Theorem&#10;(x) Parseval's Theorem&#10;( ) Duality in time and frequency domain">
+<p>1)In Exp 3(a) CTFS-CTFT , for a periodic signal with period 2.5 s, the spectral content at 0.4 Hz corresponds to which harmonic in the CTFS harmonic plot?</p>
+<multiplechoiceresponse>
+  <choicegroup label="1)In Exp 3(a) CTFS-CTFT , for a periodic signal with period 2.5 s, the spectral content at 0.4 Hz corresponds to which harmonic in the CTFS harmonic plot?" type="MultipleChoice">
+    <choice correct="false">2</choice>
+    <choice correct="true">1</choice>
+    <choice correct="false">0.5</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>2) For a periodic signal which one of the following statements characterize the relationship between number of harmonics within a fixed frequency band and time period of the signal ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="2) For a periodic signal which one of the following statements characterize the relationship between number of harmonics within a fixed frequency band and time period of the signal ?" type="MultipleChoice">
+    <choice correct="true">By increasing the time period number of harmonics will increase.</choice>
+    <choice correct="false">By increasing the time period number of harmonics will decrease.</choice>
+    <choice correct="false">By increasing the time period number of harmonics will have no change.</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>3) In exp 3(e) CTFT-DTFT, for what value of the sampling rate the impulse-sampled version of continuous time signal x(t) matches with the given discrete time signal x[n] ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="3) In exp 3(e) CTFT-DTFT, for what value of the sampling rate the impulse-sampled version of continuous time signal x(t) matches with the given discrete time signal x[n] ?" type="MultipleChoice">
+    <choice correct="true">2 Hz</choice>
+    <choice correct="false">1 Hz</choice>
+    <choice correct="false">0.5 Hz</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>4) In exp 3(c), what is the frequency of the spectral component corresponding to 4th harmonic for the corresponding normalized frequency components when the period is set to 5 ?</p>
+<multiplechoiceresponse>
+  <choicegroup label="4) In exp 3(c), what is the frequency of the spectral component corresponding to 4th harmonic for the corresponding normalized frequency components when the period is set to 5 ?" type="MultipleChoice">
+    <choice correct="true">0.08</choice>
+    <choice correct="false">0.06</choice>
+    <choice correct="false">1.00</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>5) A continuous-time signal x(t) has a Fourier Transform X(w). The Fourier transform of the time shifted signal x(t+p) would be given by</p>
+<multiplechoiceresponse>
+  <choicegroup label="5) A continuous-time signal x(t) has a Fourier Transform X(w). The Fourier transform of the time shifted signal x(t+p) would be given by" type="MultipleChoice">
+    <choice correct="false">X(w)exp(-jwp)</choice>
+    <choice correct="true">X(w)exp(jwp)</choice>
+    <choice correct="false">X(w)</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>6) If a signal is discrete in one domain(time/frequency), then its equivalent representation in the other domain would be</p>
+<multiplechoiceresponse>
+  <choicegroup label="6) If a signal is discrete in one domain(time/frequency), then its equivalent representation in the other domain would be" type="MultipleChoice">
+    <choice correct="true">Periodic</choice>
+    <choice correct="false">Aperiodic</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+<p>7) "The total energy of all discrete time n is equal to the total energy in one fundamental frequency" - this statement is better known as</p>
+<multiplechoiceresponse>
+  <choicegroup label="7) &quot;The total energy of all discrete time n is equal to the total energy in one fundamental frequency&quot; - this statement is better known as" type="MultipleChoice">
+    <choice correct="false">Nyquist Sampling Theorem</choice>
+    <choice correct="true">Parseval's Theorem</choice>
+    <choice correct="false">Duality in time and frequency domain</choice>
+  </choicegroup>
+</multiplechoiceresponse>
+
+
+</problem>
