@@ -1,165 +1,146 @@
 <problem display_name="Multiple Choice" markdown="&gt;&gt;1) A system can be defined by the input output relationship Y(t) = x(2t). The system is&lt;&lt;&#10;(x) Time-variant&#10;( ) Time-invariant&#10;&#10;&gt;&gt;2) A system is defined as y[n] = x(n)+x(n-1). Is the given system time-variant or time-invariant?&lt;&lt;&#10;( ) Time-variant&#10;(x) Time-invariant&#10;&#10;&gt;&gt;3) A system is defined as Y(n) = x(-n). Is the given system time-variant or time-invariant?&lt;&lt;&#10;(x) Time-variant&#10;( ) Time-invariant&#10;( ) None of these&#10;&#10;&gt;&gt;4) What is a possible value of &quot;p&quot; for which the system to be causal? y[n] = p.x[n+p] +x[n+1+p]+(p+2).x[n+(p+1)^2].&lt;&lt;&#10;( ) p&amp;gt; -1&#10;(x) p =-2&#10;( ) p=-3&#10;( ) None of these&#10;&#10;&gt;&gt;5) A system is defined as y[n] = a.x[n] + b.x(n-1). Identify the system as causal, non-causal or anti-causal?&lt;&lt;&#10;(x) Casual&#10;( ) Non-casual&#10;( ) Anti-casual&#10;&#10;&gt;&gt;6) A system is Causal&lt;&lt;&#10;( ) If the output at any time depends only on the values of present input.&#10;( ) If the output at any time depends only on the values of the future input.&#10;(x) If the output at any time depends only on the values of the present and past input.&#10;&#10;&gt;&gt;7) A system is defined by the input output relationship Y(n) = X(n)+3.X(n+4). Then this system is&lt;&lt;&#10;( ) Casual&#10;(x) Non-casual&#10;( ) Anti-casual&#10;&#10;&gt;&gt;8) A system is defined by the input-output relationship as Y(n) = X(-n). Identify whether the system is Causal, non-causal or anti-causal&lt;&lt;&#10;( ) Casual&#10;( ) Non-casual&#10;(x) Anti-casual&#10;&#10;&gt;&gt;9) Y(n) = X(n^2), the system is&lt;&lt;&#10;( ) Anti-casual&#10;( ) Casual&#10;(x) Non-casual&#10;&#10;&gt;&gt;10) A system can be defined as Y(n) = X(n/2). The system is&lt;&lt;&#10;(x) Time-variant.&#10;( ) Time-invariant.&#10;( ) None of these&#10;&#10;&gt;&gt;11) From causal/non-causal experiment, for system 3 what will be the delay for which the system will be causal ?&lt;&lt;&#10;( ) 3&#10;(x) 5&#10;( ) 2&#10;&#10;&gt;&gt;12) Determine the following system Y(n) =x(n)+ 1/x(n-1) as&lt;&lt;&#10;( ) linear&#10;(x) Non-linear&#10;( ) None of these&#10;&#10;&gt;&gt;13)A system is defined by the input-output relationship Y(n)= 2.x(n) + 1/x(n-1). The system is&lt;&lt;&#10;( ) linear&#10;(x) Non-linear&#10;( ) None of these&#10;&#10;&gt;&gt;14)From causal/non-causal experiment, for system 2 what will be the delay for which the system will be causal ?&lt;&lt;&#10;(x) 3&#10;( ) 1&#10;( ) 4&#10;&#10;&gt;&gt;15)A system is said to be linear if it satisfies&lt;&lt;&#10;(x) Homogeneity property.&#10;( ) Additivity property.&#10;( ) Only (1).&#10;( ) Both (1) and (2)&#10;&#10;&gt;&gt;16)A system can be defined as the input-output relationship Y(t) = 2.x(t)+3. The system is&lt;&lt;&#10;( ) Linear&#10;(x) Non-Linear&#10;( ) None of these&#10;&#10;&gt;&gt;17)A system 'S' whose input x(t) and output y(t) are related by the relationship y(t) = t.x(t). The system 'S' is&lt;&lt;&#10;(x) Linear&#10;( ) Non-Linear&#10;( ) None of these&#10;&#10;&gt;&gt;18)A system is defined by the relationship Y(n) = X(2n). The system is&lt;&lt;&#10;( ) Casual&#10;(x) Non-casual&#10;( ) Anti-casual">
-<p>1) A system can be defined by the input output relationship Y(t) = x(2t). The system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="1) A system can be defined by the input output relationship Y(t) = x(2t). The system is" type="MultipleChoice">
-    <choice correct="true">Time-variant</choice>
-    <choice correct="false">Time-invariant</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>2) A system is defined as y[n] = x(n)+x(n-1). Is the given system time-variant or time-invariant?</p>
-<multiplechoiceresponse>
-  <choicegroup label="2) A system is defined as y[n] = x(n)+x(n-1). Is the given system time-variant or time-invariant?" type="MultipleChoice">
-    <choice correct="false">Time-variant</choice>
-    <choice correct="true">Time-invariant</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>3) A system is defined as Y(n) = x(-n). Is the given system time-variant or time-invariant?</p>
-<multiplechoiceresponse>
-  <choicegroup label="3) A system is defined as Y(n) = x(-n). Is the given system time-variant or time-invariant?" type="MultipleChoice">
-    <choice correct="true">Time-variant</choice>
-    <choice correct="false">Time-invariant</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>4) What is a possible value of "p" for which the system to be causal? y[n] = p.x[n+p] +x[n+1+p]+(p+2).x[n+(p+1)^2].</p>
-<multiplechoiceresponse>
-  <choicegroup label="4) What is a possible value of &quot;p&quot; for which the system to be causal? y[n] = p.x[n+p] +x[n+1+p]+(p+2).x[n+(p+1)^2]." type="MultipleChoice">
-    <choice correct="false">p&gt; -1</choice>
-    <choice correct="true">p =-2</choice>
-    <choice correct="false">p=-3</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>5) A system is defined as y[n] = a.x[n] + b.x(n-1). Identify the system as causal, non-causal or anti-causal?</p>
-<multiplechoiceresponse>
-  <choicegroup label="5) A system is defined as y[n] = a.x[n] + b.x(n-1). Identify the system as causal, non-causal or anti-causal?" type="MultipleChoice">
-    <choice correct="true">Casual</choice>
-    <choice correct="false">Non-casual</choice>
-    <choice correct="false">Anti-casual</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>6) A system is Causal</p>
-<multiplechoiceresponse>
-  <choicegroup label="6) A system is Causal" type="MultipleChoice">
-    <choice correct="false">If the output at any time depends only on the values of present input.</choice>
-    <choice correct="false">If the output at any time depends only on the values of the future input.</choice>
-    <choice correct="true">If the output at any time depends only on the values of the present and past input.</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>7) A system is defined by the input output relationship Y(n) = X(n)+3.X(n+4). Then this system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="7) A system is defined by the input output relationship Y(n) = X(n)+3.X(n+4). Then this system is" type="MultipleChoice">
-    <choice correct="false">Casual</choice>
-    <choice correct="true">Non-casual</choice>
-    <choice correct="false">Anti-casual</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>8) A system is defined by the input-output relationship as Y(n) = X(-n). Identify whether the system is Causal, non-causal or anti-causal</p>
-<multiplechoiceresponse>
-  <choicegroup label="8) A system is defined by the input-output relationship as Y(n) = X(-n). Identify whether the system is Causal, non-causal or anti-causal" type="MultipleChoice">
-    <choice correct="false">Casual</choice>
-    <choice correct="false">Non-casual</choice>
-    <choice correct="true">Anti-casual</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>9) Y(n) = X(n^2), the system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="9) Y(n) = X(n^2), the system is" type="MultipleChoice">
-    <choice correct="false">Anti-casual</choice>
-    <choice correct="false">Casual</choice>
-    <choice correct="true">Non-casual</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>10) A system can be defined as Y(n) = X(n/2). The system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="10) A system can be defined as Y(n) = X(n/2). The system is" type="MultipleChoice">
-    <choice correct="true">Time-variant.</choice>
-    <choice correct="false">Time-invariant.</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>11) From causal/non-causal experiment, for system 3 what will be the delay for which the system will be causal ?</p>
-<multiplechoiceresponse>
-  <choicegroup label="11) From causal/non-causal experiment, for system 3 what will be the delay for which the system will be causal ?" type="MultipleChoice">
-    <choice correct="false">3</choice>
-    <choice correct="true">5</choice>
-    <choice correct="false">2</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>12) Determine the following system Y(n) =x(n)+ 1/x(n-1) as</p>
-<multiplechoiceresponse>
-  <choicegroup label="12) Determine the following system Y(n) =x(n)+ 1/x(n-1) as" type="MultipleChoice">
-    <choice correct="false">linear</choice>
-    <choice correct="true">Non-linear</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>13)A system is defined by the input-output relationship Y(n)= 2.x(n) + 1/x(n-1). The system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="13)A system is defined by the input-output relationship Y(n)= 2.x(n) + 1/x(n-1). The system is" type="MultipleChoice">
-    <choice correct="false">linear</choice>
-    <choice correct="true">Non-linear</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>14)From causal/non-causal experiment, for system 2 what will be the delay for which the system will be causal ?</p>
-<multiplechoiceresponse>
-  <choicegroup label="14)From causal/non-causal experiment, for system 2 what will be the delay for which the system will be causal ?" type="MultipleChoice">
-    <choice correct="true">3</choice>
-    <choice correct="false">1</choice>
-    <choice correct="false">4</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>15)A system is said to be linear if it satisfies</p>
-<multiplechoiceresponse>
-  <choicegroup label="15)A system is said to be linear if it satisfies" type="MultipleChoice">
-    <choice correct="true">Homogeneity property.</choice>
-    <choice correct="false">Additivity property.</choice>
-    <choice correct="false">Only (1).</choice>
-    <choice correct="false">Both (1) and (2)</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>16)A system can be defined as the input-output relationship Y(t) = 2.x(t)+3. The system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="16)A system can be defined as the input-output relationship Y(t) = 2.x(t)+3. The system is" type="MultipleChoice">
-    <choice correct="false">Linear</choice>
-    <choice correct="true">Non-Linear</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>17)A system 'S' whose input x(t) and output y(t) are related by the relationship y(t) = t.x(t). The system 'S' is</p>
-<multiplechoiceresponse>
-  <choicegroup label="17)A system 'S' whose input x(t) and output y(t) are related by the relationship y(t) = t.x(t). The system 'S' is" type="MultipleChoice">
-    <choice correct="true">Linear</choice>
-    <choice correct="false">Non-Linear</choice>
-    <choice correct="false">None of these</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-<p>18)A system is defined by the relationship Y(n) = X(2n). The system is</p>
-<multiplechoiceresponse>
-  <choicegroup label="18)A system is defined by the relationship Y(n) = X(2n). The system is" type="MultipleChoice">
-    <choice correct="false">Casual</choice>
-    <choice correct="true">Non-casual</choice>
-    <choice correct="false">Anti-casual</choice>
-  </choicegroup>
-</multiplechoiceresponse>
-
-
+  <p>1) A system can be defined by the input output relationship Y(t) = x(2t). The system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="1) A system can be defined by the input output relationship Y(t) = x(2t). The system is" type="MultipleChoice">
+      <choice correct="true">Time-variant</choice>
+      <choice correct="false">Time-invariant</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>2) A system is defined as y[n] = x(n)+x(n-1). Is the given system time-variant or time-invariant?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="2) A system is defined as y[n] = x(n)+x(n-1). Is the given system time-variant or time-invariant?" type="MultipleChoice">
+      <choice correct="false">Time-variant</choice>
+      <choice correct="true">Time-invariant</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>3) A system is defined as Y(n) = x(-n). Is the given system time-variant or time-invariant?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="3) A system is defined as Y(n) = x(-n). Is the given system time-variant or time-invariant?" type="MultipleChoice">
+      <choice correct="true">Time-variant</choice>
+      <choice correct="false">Time-invariant</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>4) What is a possible value of "p" for which the system to be causal? y[n] = p.x[n+p] +x[n+1+p]+(p+2).x[n+(p+1)^2].</p>
+  <multiplechoiceresponse>
+    <choicegroup label="4) What is a possible value of &quot;p&quot; for which the system to be causal? y[n] = p.x[n+p] +x[n+1+p]+(p+2).x[n+(p+1)^2]." type="MultipleChoice">
+      <choice correct="false">p&gt; -1</choice>
+      <choice correct="true">p =-2</choice>
+      <choice correct="false">p=-3</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>5) A system is defined as y[n] = a.x[n] + b.x(n-1). Identify the system as causal, non-causal or anti-causal?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="5) A system is defined as y[n] = a.x[n] + b.x(n-1). Identify the system as causal, non-causal or anti-causal?" type="MultipleChoice">
+      <choice correct="true">Casual</choice>
+      <choice correct="false">Non-casual</choice>
+      <choice correct="false">Anti-casual</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>6) A system is Causal</p>
+  <multiplechoiceresponse>
+    <choicegroup label="6) A system is Causal" type="MultipleChoice">
+      <choice correct="false">If the output at any time depends only on the values of present input.</choice>
+      <choice correct="false">If the output at any time depends only on the values of the future input.</choice>
+      <choice correct="true">If the output at any time depends only on the values of the present and past input.</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>7) A system is defined by the input output relationship Y(n) = X(n)+3.X(n+4). Then this system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="7) A system is defined by the input output relationship Y(n) = X(n)+3.X(n+4). Then this system is" type="MultipleChoice">
+      <choice correct="false">Casual</choice>
+      <choice correct="true">Non-casual</choice>
+      <choice correct="false">Anti-casual</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>8) A system is defined by the input-output relationship as Y(n) = X(-n). Identify whether the system is Causal, non-causal or anti-causal</p>
+  <multiplechoiceresponse>
+    <choicegroup label="8) A system is defined by the input-output relationship as Y(n) = X(-n). Identify whether the system is Causal, non-causal or anti-causal" type="MultipleChoice">
+      <choice correct="false">Casual</choice>
+      <choice correct="false">Non-casual</choice>
+      <choice correct="true">Anti-casual</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>9) Y(n) = X(n^2), the system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="9) Y(n) = X(n^2), the system is" type="MultipleChoice">
+      <choice correct="false">Anti-casual</choice>
+      <choice correct="false">Casual</choice>
+      <choice correct="true">Non-casual</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>10) A system can be defined as Y(n) = X(n/2). The system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="10) A system can be defined as Y(n) = X(n/2). The system is" type="MultipleChoice">
+      <choice correct="true">Time-variant.</choice>
+      <choice correct="false">Time-invariant.</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>11) From causal/non-causal experiment, for system 3 what will be the delay for which the system will be causal ?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="11) From causal/non-causal experiment, for system 3 what will be the delay for which the system will be causal ?" type="MultipleChoice">
+      <choice correct="false">3</choice>
+      <choice correct="true">5</choice>
+      <choice correct="false">2</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>12) Determine the following system Y(n) =x(n)+ 1/x(n-1) as</p>
+  <multiplechoiceresponse>
+    <choicegroup label="12) Determine the following system Y(n) =x(n)+ 1/x(n-1) as" type="MultipleChoice">
+      <choice correct="false">linear</choice>
+      <choice correct="true">Non-linear</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>13)A system is defined by the input-output relationship Y(n)= 2.x(n) + 1/x(n-1). The system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="13)A system is defined by the input-output relationship Y(n)= 2.x(n) + 1/x(n-1). The system is" type="MultipleChoice">
+      <choice correct="false">linear</choice>
+      <choice correct="true">Non-linear</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>14)From causal/non-causal experiment, for system 2 what will be the delay for which the system will be causal ?</p>
+  <multiplechoiceresponse>
+    <choicegroup label="14)From causal/non-causal experiment, for system 2 what will be the delay for which the system will be causal ?" type="MultipleChoice">
+      <choice correct="true">3</choice>
+      <choice correct="false">1</choice>
+      <choice correct="false">4</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>15)A system is said to be linear if it satisfies</p>
+  <multiplechoiceresponse>
+    <choicegroup label="15)A system is said to be linear if it satisfies" type="MultipleChoice">
+      <choice correct="true">Homogeneity property.</choice>
+      <choice correct="false">Additivity property.</choice>
+      <choice correct="false">Only (1).</choice>
+      <choice correct="false">Both (1) and (2)</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>16)A system can be defined as the input-output relationship Y(t) = 2.x(t)+3. The system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="16)A system can be defined as the input-output relationship Y(t) = 2.x(t)+3. The system is" type="MultipleChoice">
+      <choice correct="false">Linear</choice>
+      <choice correct="true">Non-Linear</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>17)A system 'S' whose input x(t) and output y(t) are related by the relationship y(t) = t.x(t). The system 'S' is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="17)A system 'S' whose input x(t) and output y(t) are related by the relationship y(t) = t.x(t). The system 'S' is" type="MultipleChoice">
+      <choice correct="true">Linear</choice>
+      <choice correct="false">Non-Linear</choice>
+      <choice correct="false">None of these</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
+  <p>18)A system is defined by the relationship Y(n) = X(2n). The system is</p>
+  <multiplechoiceresponse>
+    <choicegroup label="18)A system is defined by the relationship Y(n) = X(2n). The system is" type="MultipleChoice">
+      <choice correct="false">Casual</choice>
+      <choice correct="true">Non-casual</choice>
+      <choice correct="false">Anti-casual</choice>
+    </choicegroup>
+  </multiplechoiceresponse>
 </problem>
