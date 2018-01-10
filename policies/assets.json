@@ -3,21 +3,21 @@
         "contentType": "image/jpeg", 
         "content_son": {
             "category": "asset", 
-            "course": "ECE10", 
+            "course": "ece10", 
             "name": "IIT-Guwahati-Signals_and_Systems_Laboratory.jpg", 
-            "org": "IIT-Guwahati", 
+            "org": "Virtual-Labs", 
             "revision": null, 
             "run": "Anytime", 
             "tag": "c4x"
         }, 
         "displayname": "IIT-Guwahati-Signals and Systems Laboratory.jpg", 
-        "filename": "asset-v1:IIT-Guwahati+ECE10+Anytime+type@asset+block@IIT-Guwahati-Signals_and_Systems_Laboratory.jpg", 
+        "filename": "asset-v1:Virtual-Labs+ece10+Anytime+type@asset+block@IIT-Guwahati-Signals_and_Systems_Laboratory.jpg", 
         "import_path": "IIT-Guwahati-Signals and Systems Laboratory.jpg", 
         "locked": false, 
         "thumbnail_location": [
             "c4x", 
-            "IIT-Guwahati", 
-            "ECE10", 
+            "Virtual-Labs", 
+            "ece10", 
             "thumbnail", 
             "IIT-Guwahati-Signals_and_Systems_Laboratory.jpg", 
             null
